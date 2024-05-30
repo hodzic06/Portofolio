@@ -1,0 +1,447 @@
+@media(max-width: 1600px) {
+
+
+    .navigation{
+        width: 995px;
+    }
+
+    .right-navigation-part{
+        width: 80%;
+    }
+
+    .logo-div{
+        width:20%;
+    }
+
+    .title-div{
+        margin-left: 152px;
+    }
+
+    .title{
+        font-size: 52px;
+    }
+    
+    .content-div span{
+        font-size: 52px;
+        margin-top: -20px;
+    }
+
+    .start_button a{
+        margin-top:22px;
+        padding: 7px 37px;
+        border: 2px solid white;
+    }
+
+    .left-cv{
+        width: 80.5%;
+    }
+
+    .content-cv{
+        width: 498px;
+    }
+
+    .content-cv h3{
+        font-size: 45px;
+    }
+
+    .download a{
+        margin-top:28px;
+        padding:7px 32px;
+    }
+
+    .service-border{
+        width: 993px;
+    }
+
+    .box{
+        width: 227px;
+    }
+
+    .bottom{
+        width: 166px;
+    }
+
+    .title-service{
+        font-size: 45px;
+    }
+
+    .project-border{
+        width: 993px;
+    }
+
+    .project-container{
+        height: 1724px;
+    }
+
+    .project-border h3{
+        font-size: 45px;
+    }
+
+    .photos-box{
+        height: 395px;
+    }
+    .review-border{
+        width: 993px;
+    }
+
+    .news-border{
+        width: 993px;
+    }
+
+    .photo-box{
+        width: 313px;
+        height: 80%;
+    }
+
+    .slider{
+        width: 240px;
+        margin-top: -32px;
+    }
+
+    .login-border{
+        width: 993px;
+    }
+
+    .title-login h3{
+        font-size: 45px;
+        line-height: 1.4;
+    }
+
+    .title-right{
+        margin-top: 118px;
+        font-size: 23px;
+    }
+
+}
+
+@media(max-width: 1040px){
+
+    .background{
+        background-position:70%;
+    }
+
+    .left-cv{
+        display: none;
+        
+    }
+
+    .content-cv {
+        padding-right: 50px;
+    }
+    .home-container{
+        width: 100%;
+        margin-right: 27%;
+    } 
+    .hamb{
+        display: flex;
+        margin-right: 10px;
+    }
+
+    .navigation-buttons{
+        display: none;
+    }
+    
+    nav a{
+        overflow: hidden;
+        color: white;
+        text-decoration: none;
+        padding: 4px;
+    }
+
+    nav {
+        background: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+      nav .mainMenu {
+        display: flex;
+        list-style: none;
+      }
+      nav .mainMenu li a {
+        display: inline-block;
+        padding: 15px;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: rgb(255, 255, 255);
+        font-size: 18px;
+        transition: 0.2s ease;
+      }
+      nav .mainMenu li a:hover {
+        background: rgb(255, 94, 0);
+      }
+      nav .openMenu {
+        font-size: 2rem;
+        margin: 20px;
+        display: none;
+        cursor: pointer;
+      }
+      nav .mainMenu .closeMenu,
+      .icons i {
+        font-size: 2rem;
+        display: none;
+        cursor: pointer;
+      }
+      nav .logo {
+        margin: 6px;
+        cursor: pointer;
+        text-transform: uppercase;
+      }
+
+    nav .mainMenu {
+        font-size: 2rem;
+        height: 50vh;
+        position: fixed;
+        top: 0px;
+        right: 0px;
+        left: 0px;
+        z-index: 10;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: rgb(0, 0, 0);
+        transition: top 1s ease 0s;
+        display: none;
+      }
+      nav .mainMenu .closeMenu {
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+      }
+      nav .openMenu {
+        display: block;
+      }
+      nav .mainMenu li a:hover {
+        background: none;
+        color: rgb(255, 123, 0);
+      }
+      .icons i {
+        display: inline-block;
+        padding: 12px;
+     }
+
+     .logo-div {
+        width: 100px;
+        margin-left: 40px;
+        z-index: 20000;
+    }
+
+    .title-div{
+        width: 80%;
+    }
+
+    .content-div{
+        margin-left: 10px;
+    }
+
+    .right-cv{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .service-container{
+        height: 990px;
+    }
+
+    .bottom-border{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        
+    }
+
+    .box{
+        width: 369px;
+        
+    }
+
+    .right-photo{
+        width: 88%;
+
+    }
+
+    .left-photo{
+        width: 88%;
+        margin-right: 20px;
+    }
+
+    .photos-box{
+        padding-top: 31px;
+    }
+
+    .photos-border{
+        margin-top: -125px;
+    }
+
+    #third-box{
+        display: none;
+    }
+
+    .news-photo{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .login-border{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .login-container{
+        height: 1200px;
+    }
+
+    .left-content{
+        width: 90%;
+        margin-top: 18px;
+    }
+
+    .right-content{
+        width: 90%;
+        height: 880px;
+        margin-top: -120px;
+    }
+
+    .title-login{
+        height: 220px;
+    }
+
+    .infromation{
+        height: 424px;
+
+    }
+
+}
+
+@media(max-width: 768px){
+
+    .title-service {
+        font-size: 2.5rem;
+    }
+
+    .title{
+        font-size: 36px;
+    }
+
+    .content-div span {
+        font-size: 36px;
+    }
+
+    .background{
+        background-position:76%;
+    }
+
+    #second-box{
+        display: none;
+    }
+
+    .news-about{
+        width: 390px;
+    }
+
+    .title-login{
+        width: 90%;
+    }
+
+    .infromation{
+        width: 100%;
+    }
+
+    .about-client{
+        width: 239px;
+    }
+
+    nav .mainMenu{
+        height: 58vh;
+    }
+
+
+    .left-arrow{
+        width: 345px;
+    }
+    .right-arrow{
+        width: 345px;
+    }
+    .title-div{
+        margin-left:auto;
+    }
+
+    .cv-container{
+        height: auto;
+    }
+
+    .content-cv{
+        height: auto;
+        margin-left: 60px;
+    }
+
+    .content-cv h3{
+        font-size: 2rem;
+        width: 100%;
+    }
+    
+    .download{
+        margin-bottom: 40px;
+    }
+
+    .navigation-div{
+        height: 79px;
+    }
+
+    .bottom-border{
+        height: auto;
+        justify-content: space-evenly;
+    }
+
+    .service-container{
+        height: auto;
+    }
+
+    .box{
+        margin-bottom: 20px;
+    }
+
+    .photos-box{
+        flex-direction: column;
+        height: 936px;
+    }
+
+    .title-project{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .project-container{
+        height: auto;
+    }
+
+    .left-photo{
+        width: 100%;
+        height: 100%;
+    }
+
+    .right-photo{
+        width: 100%;
+        height: 100%;
+    }
+    .title-project p{
+        width: 90%;
+        text-align: center;
+    }
+
+    #sec-box{
+        margin-top: -90px;
+    }
+
+    #thir-box{
+        margin-top: -90px;
+    }
+}

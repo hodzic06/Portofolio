@@ -1,0 +1,75 @@
+html {
+  scroll-behavior: smooth;
+}
+body::-webkit-scrollbar {
+    width: 11px;
+  }
+  
+  body {
+    scrollbar-width: thin;
+    scrollbar-color: #999 #fff;
+  }
+  
+  body:-webkit-scrollbar-track {
+    background: #fff;
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #999;
+    border-radius: 6px;
+    border: 3px solid #fff;
+  }
+
+
+.cursorFollower {
+    position: fixed;
+    width: 2rem;
+    height: 2rem;
+    border: 2px solid #1473E6;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    transition: transform 0.3s;
+    z-index: 9929;
+    pointer-events: none;
+  }
+  .cursorFollowerDot {
+    position: fixed;
+    width: 0.8rem;
+    height: 0.8rem;
+    background: #1473E6;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    transition: transform 0.3s;
+    z-index: 9929;
+    pointer-events: none;
+  }
+
+.loading-container {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background-color: #fff; /* Boja pozadine, prilagodite prema dizajnu */
+    overflow: hidden; /* Skrivanje vertikalnog overflowa */
+    transition: left 0.5s ease-out, right 0.5s ease-out; /* Dodajemo tranziciju za ljepši efekt */
+    z-index: 23424;
+}
+
+.vertical-line {
+    position: absolute;
+    height: 0;
+    width: 2px; /* Širina linije */
+    background-color: #000; /* Boja linije, možete promijeniti prema svojim željama */
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    animation: expandLine 1.5s forwards;
+}
+
+@keyframes expandLine {
+    from {
+        height: 0;
+    }
+    to {
+        height: 100%;
+    }
+}
